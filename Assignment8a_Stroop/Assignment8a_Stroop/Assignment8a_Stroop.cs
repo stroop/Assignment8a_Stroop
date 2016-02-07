@@ -9,6 +9,19 @@ CIS353 - Assignment 8a
 
 namespace Assignment8a_Stroop
 {
+    class Assignment8 : Form
+    {
+        private void btnClickMe(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnExit(object sender, EventArgs e)
+        {
+
+        }
+    }
+
     static class Assignment8a_Stroop
     {
         /// <summary>
