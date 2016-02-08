@@ -11,6 +11,7 @@ namespace Assignment8a_Stroop
 {
     class Assignment8 : Form
     {
+        // declare controls
         private Button btnClickMe;
         private Button btnExit;
 
@@ -43,11 +44,13 @@ namespace Assignment8a_Stroop
             this.Text = "Assignment8"; // form title bar text
         }
 
+        // button onclick method exits application
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Dispose();
         }
 
+        // button onclick method displays message box
         private void btnClickMe_Click(object sender, EventArgs e)
         {
             MessageBox.Show("The Button Has Been Clicked.", "Click Me");
