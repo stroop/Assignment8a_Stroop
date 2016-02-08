@@ -57,16 +57,12 @@ namespace Assignment8a_Stroop
         }
     }
 
+    // entry point for application
     static class Assignment8a_Stroop
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        [STAThread]
+        // main method runs class that extends form
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Assignment8());
         }
     }
